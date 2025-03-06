@@ -16,9 +16,9 @@ The **Inventory Management System** is a web-based application built with **Lara
 
 ## Tech Stack
 - **Framework:** Laravel (PHP)
-- **Frontend:** Blade, Tailwind CSS
-- **Database:** MySQL / PostgreSQL
-- **Authentication:** Laravel Breeze / Custom Auth
+- **Frontend:** Blade, Bootstrap, Native CSS
+- **Database:** MySQL
+- **Authentication:** Ajax / Custom Auth ==> active in 2nd branch
 - **Deployment:** Nginx / Apache (Cloud or On-Prem)
 
 ## Installation
