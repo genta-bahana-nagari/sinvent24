@@ -22,7 +22,7 @@ The **Inventory Management System** is a web-based application built with **Lara
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/genta-bahana-nagari/sinvent24.git
+   git clone -b main https://github.com/genta-bahana-nagari/sinvent24.git
    cd inventory-system
    ```
 2. Install dependencies:
