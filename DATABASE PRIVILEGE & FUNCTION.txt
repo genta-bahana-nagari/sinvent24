@@ -1,0 +1,27 @@
+# Privileges for `genta`@`%`
+GRANT USAGE ON *.* TO 'genta'@'%';
+GRANT ALL PRIVILEGES ON `latihan_ukk`.* TO 'genta'@'%';
+GRANT ALL PRIVILEGES ON `project_gama`.* TO 'genta'@'%';
+
+
+# Privileges for `root`@`localhost`
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+GRANT PROXY ON ''@'' TO 'root'@'localhost' WITH GRANT OPTION;
+
+# Function keterangan Kategori
+BEGIN
+ DECLARE kategori VARCHAR(30);
+ 
+ IF kat = "M" THEN
+ 	SET kategori = "Modal";
+ ELSEIF kat="A" THEN
+   SET kategori = "Alat";
+ ELSEIF kat="BHP" THEN
+   SET kategori = "Bahan Habis Pakai";
+ ELSEIF kat="BTHP" THEN
+   SET kategori = "Bahan Tidak Habis Pakai";
+ END IF;
+ RETURN kategori;
+
+END
+
