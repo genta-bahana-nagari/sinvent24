@@ -5,12 +5,8 @@ The **Inventory Management System** is a web-based application built with **Lara
 
 ## Features
 - **Real-time Inventory Tracking** – Keep track of stock movements and receive alerts for low stock levels.
-- **Role-Based Access Control (RBAC)** – Secure authentication for different user roles (Admin, Manager, Staff).
-- **Product & Supplier Management** – Add, edit, and organize products, categories, and supplier details.
-- **Dynamic Reporting & Analytics** – Generate insightful reports on stock levels, sales trends, and purchase history.
-- **Barcode & QR Code Integration** – Scan and update stock using barcode/QR scanning technology.
+- **Product Management** – Add, edit, and organize products and categories.
 - **Multi-Warehouse Support** – Manage inventory across multiple locations.
-- **RESTful API Support** – Easily integrate with third-party applications.
 
 ## Tech Stack
 - **Framework:** Laravel (PHP)
@@ -23,7 +19,7 @@ The **Inventory Management System** is a web-based application built with **Lara
 1. Clone this repository:
    ```sh
    git clone -b main https://github.com/genta-bahana-nagari/sinvent24.git
-   cd inventory-system
+   cd sinvent24
    ```
 2. Install dependencies:
    ```sh
